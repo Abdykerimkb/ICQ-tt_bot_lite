@@ -20,7 +20,7 @@ bot = Bot(token=TOKEN)
 
 
 def get_download_links(video_url, event):
-    r = requests.get(f'https://api.douyin.wtf/api?url={video_url}').json()
+    r = requests.get(f'https://api-v2.douyin.wtf/api?url={video_url}').json()
     if r["status"] == "success":
         filename = f'tt-{random.randint(1, 9999999999)}.mp4'
         file = open(filename, 'wb')
