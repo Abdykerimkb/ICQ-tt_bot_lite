@@ -14,7 +14,7 @@ import requests
 from bot.bot import Bot
 from bot.handler import MessageHandler
 
-TOKEN = ""  # bot token
+TOKEN = "001.1709258442.0957308243:1007428335"  # bot token
 
 bot = Bot(token=TOKEN)
 
